@@ -3,4 +3,15 @@ project(MergeSelectionSort C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(MergeSelectionSort main.c)
+
+set(HEADERS
+        include/array.h)
+set(SOURCES
+        source/array.c)
+
+include_directories(include)
+
+add_executable(MergeSelectionSort
+        ${HEADERS}
+        ${SOURCES}
+        main.c)

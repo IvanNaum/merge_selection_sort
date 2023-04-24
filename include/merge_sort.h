@@ -1,0 +1,6 @@
+#ifndef MERGESELECTIONSORT_MERGE_SORT_H
+#define MERGESELECTIONSORT_MERGE_SORT_H
+
+void merge_sort(int arr[], int size);
+
+#endif //MERGESELECTIONSORT_MERGE_SORT_H
